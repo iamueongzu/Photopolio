@@ -106,13 +106,18 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    background-color: var(--color-pink);
+    background-color:var(--color-pink);
     height:100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: all var(--animation-duration) ease-in-out;
   }
 
 #navbar.navbar--dark {
     background-color: var(--color-pink);
     padding: 8px;
+   
     
 }
 
