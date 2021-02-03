@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+body {margin: 0;  text-align: center; font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; padding: 0; box-sizing:border-box; background-color:#121212;}
+
+ul,li,ol {list-style: none; margin: 0; padding: 0;}
+
+/*모바일버전 */
+@media screen and (max-width:599px) {
+
+#wrap {width:100%; height: auto; margin:0; padding:0;}
+
+#slider {background-size: cover; z-index: 1; top: 0; width: 100%; height: 500px; display:flex; padding:0; flex-direction: column; flex-wrap:wrap; position:relative;}
+
+
+
+ #c {display: none; color:#fff; padding:10%;}
+ img {cursor: pointer; }
+ #b { width:20px; height:20px; float:right; position:absolute; margin:10px 200px;}
+
+
+
+
+
+#wrap header {width:100%; }
+
+#wrap header nav {width:100%; height:auto;  display: flex; flex-direction: row; background:rgba(0, 0, 0, 0.1); }
+#wrap header nav img {width:200px; height:80px;}
+
+#wrap header nav ul { float:left; width:100%; height:auto;  text-align: center;}
+
+#wrap header nav ul li {width:100px; height:auto; float: left; color:#eee;text-align:center;  font-weight: bold; display:none;}
+
+/*#wrap header nav ul li:hover {color: orange;}*/
+
+header .main {  width:100%; display:flex; flex-direction:column; height:auto; margin:0;}
+header .main h3 {color:#fff; text-align: center; font-size:25px; padding:5%; margin-top:100px; }
+header .main h2 {color:#fff; text-align: center; font-size:30px; padding:5%; }
+
+
+
+/*안경쓴 남자부분 */
+
+ #content {width:100%; margin:0 auto; height:auto; display:flex;  flex-direction: column; flex-wrap:wrap; justify-content:space-around;  justify-content: center;}
+    
+    #content img {width:90%; height:auto; margin:20px auto; }
+    
+    #content .contentbox {width:100%; height:500px;  text-align: left; display:flex; padding:0; flex-direction: row; flex-wrap:wrap; justify-content:space-around;  justify-content: left; }
+
+    #content .contentbox h1 { width:90%; height:auto;  color:#fff; font-family: "Bradley Hand ITC", serif; text-align:center;}
+    
+    #content .contentbox h2 { width:90%; height:auto;  color:#fff; font-size:50px; color:orange; text-align:center; margin-top:-50px;}
+    
+    #content .contentbox p { width:90%; height:auto;  color:#666; text-align:center; margin-top:-30px;}
+    
+    #content .contentbox button {width:50%; height:50px; background-color:orange; border-radius:20px; margin:0 auto;}
+    
+    #content .contentbox button:hover {background-color:#555; color:#fff; cursor: pointer;}
+
+/*이벤트부분*/
+
+#event { width:100%; height: auto; isplay:flex;  flex-direction: column; flex-wrap:wrap; justify-content:space-around;  justify-content: center; }
+
+#event img {width:100%; height: auto;}
+#event h2 {color:orange; width:100%; height: auto; }
+
+#eventtext { width:100%; height:auto;display:flex;  flex-direction: column; flex-wrap:wrap; justify-content:space-around;  justify-content: center; }
+
+#eventtext .text { width:80%; height:auto; display: flex; flex-direction: column; }
+
+#eventtext .text h3 { color:#fff; display:flex;  padding:10px;  }
+
+#eventtext .text h4 {  border:5px solid orange; float:left; width:80px; height:90px; font-size:30px;
+text-align: center; color:#fff; padding:10px; text-align:center;}
+
+#eventtext .text h5 {width:100%; height:auto; color:#fff;  text-align:center;  margin:0 auto; display:inline-block; } 
+
+#eventtext .text p {color: #fff;  text-align:center; }
+
+#eventimg { width:100%; height:200px;}
+
+#eventimg img {width: 100%; height:200px;}
+
+
+
+
+#playlist {width:100%; height: auto; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-around;   }
+#playlist img {width:100%; height: 200px;}
+#playlist h2 {font-size:1.100em;  text-align:center; color:#fff; margin:-150px 20px; }
+#playlist p {font-size:15px; text-align:left;  color:#fff; margin-top:-80px;}
+
+
+#photobox {width: 100%; height: auto;  justify-content: center; display: flex; flex-direction: column; background-color:#000;}
+
+#photobox .photo {  width: 100%; height: 360px; }
+
+#photobox .photo img { width: 100%; height: 360px;}
+
+
+/*아이콘부분 */
+
+#icon {width: 100%; height: auto; margin:0 auto;  display: flex; flex-direction: column; 
+justify-content: center;}
+
+#icon .iconview { width:100%; height: auto;  }
+
+#icon .iconview h4 {text-align: center; color: #fff; display: block; font-size: 20px;}
+
+#icon .iconview span { color: #666; margin: auto; display: inline-block; text-align: center; font-size:0.750em; }
+
+#icon .iconview img { padding: 25px; margin:0 auto;}
+
+#imgboxbg {width: 100%;  height:auto; display:flex; padding:0; flex-direction: column; flex-wrap:wrap; justify-content:space-around; background-size: cover; background-color:rgba(0,0,0,0.8);}
+#imgboxbg .boxtext {margin:0 auto;  width:100%; height:auto; display: flex; justify-content: space-around; flex-direction: column; }
+#imgboxbg .boxtext h2 {color:orange; text-align:center; font-weight:bold; font-size:40px;}
+#imgboxbg .boxtext p {color:#fff; font-size:0.750em; text-align:center;}
+#imgboxbg .boxtext button { width:200px; height:40px; background-color: #ffd157; border-radius: 30px; border: none; font-weight: bold;
+padding:10px; margin:20px auto; }
+
+
+#media {width:100%;  height:auto; display:flex; padding:0; flex-direction: column; flex-wrap:wrap; justify-content:space-around;  justify-content: center; border:1px solid #eee;}
+#media h2 {margin:0 auto; padding:0; width:100%; height:auto; }           
+#media img {width:100%; height:500px;}
+        
+#mediainfo {width:100%; height:auto;  text-align: left; display:flex; padding:0; flex-direction: row; flex-wrap:wrap; justify-content:space-around;  justify-content: left; }
+        
+#mediainfo p {width:90%; height:auto; font-size: 1.000em;  color:#666; margin:0 auto; padding:10%; }
+
+
+
+#members { width: 100%;   height:auto; display:flex; padding:0; flex-direction: column; flex-wrap:wrap; justify-content:space-around;  }
+
+#members  h2 { margin:0 auto;  padding:0; width:100%; height:auto; }
+
+#members .mb { border:1px solid #666;  width: 100%; height:auto; position: relative;   }
+#members .mb img {width: 100%; height:auto;}
+
+.mb .info {background-color:#000; width:100%; height: 150px; opacity:0.9; position: absolute;  display:flex; padding:0; flex-direction: column; flex-wrap:wrap; justify-content:space-around; margin-top:-150px;}
+.mb .info h3  {font-size:20px; color:#fff; text-align:center; padding:1%;}
+.mb .info p {color:#eee; font-size:12px; margin-top:-15px;}
+.mb .info button {background-color:orange; border: none;border-radius:30px; color: #fff; width:50%; height:30px;}
+.mb .info button:hover {background-color:#555; color:#fff; border-radius:30px;}
+
+
+
+#iconbtn { width: 100%; height: auto; margin-top:30px;}
+
+
+#iconbtnbg {width: 100%; height: auto;}
+#iconbtnbg .icon1 {width: 100%; height:400px; display:flex; padding:0; flex-direction: column; flex-wrap:wrap; justify-content:space-around;  justify-content: center; }
+
+#iconbtnbg .icon1 img {width:25%; height:auto; margin:0 auto;}
+
+#iconbtnbg .icon1 h4 {text-align: center; float: left; font-size: 30px;  color: #fff;}
+
+#iconbtnbg .icon1 span { width:100px; height:auto; color: #fff; display: flex; justify-content: center; margin-bottom:1%; border:1px solid #eee; border-radius:30px; margin:0 auto;}
+
+
+
+/*가장중요한부분*/
+
+#container {width: 100%; margin:0 auto; display:flex; padding:0; flex-direction: column; flex-wrap:wrap;   }
+#container h2 {width:100%; height:50px; text-align:center; margin: 0 auto; font-weight:bold; color:orange; display:block; font-size: 35px;}
+#firstbox {width:80%; padding:0px;  margin:0 auto; display: flex;   flex-direction: column; flex-wrap:wrap; justify-content:space-around;   }
+#firstbox .box1 {width:100%:; height:600px;  float: left; border:1px solid #666;}
+#firstbox .box1 img {width: 100%; height:334px;}
+#firstbox .box1 h2 {width:90%; height:20px; font-size:20px; float: left; margin:0 auto; color:#fff;}
+#firstbox .box1 span {color:#666; font-size:13px; padding:20px;}
+
+#map {width:100%; height:500px;}
+
+footer {width: 100%;  height:auto; display:flex; padding:0; flex-direction: column;  background-color:blue; justify-content:center; text-align: center;}
+
+footer #footerbg {width: 100%; height: 800px;  display:flex; padding:0; flex-direction: column;  background-color:cyan; }
+
+#footerbg .about {width:100%; height:500px; display:flex; padding:0; flex-direction: column;  background-color:gold;}
+#footerbg .about h2 {text-align:left;  color: orange;}
+#footerbg .about p {text-align:left; font-size:12px;}
+#footerbg .about h3 {text-align:left;  color:orange; }
+
+
+#footerbg .recent {width:100%; height:500px;   display:flex; padding:0; flex-direction: column; flex-wrap:wrap; justify-content:space-around; background-color:hotpink;  }
+#footerbg .recent h2 {color:orange;}
+#footerbg .recent li {padding:1%; }
+
+#footerbg .ARCHIVE {width:100%; height:500px; background-color:skyblue; }
+#footerbg .ARCHIVE li {padding:1%; }
+
+#footerbg .icon {width:100%; height:500px; background-color:red;}
+ #footerbg .icon h2 {text-align:center; color: orange; }
+ #footerbg .icon button {border:none; background-color:orange; color:#fff; border-radius:40px;}
+
+ #footerbg .icon img {width:7%; height:7%;}
+
+
+}
+
+
+
+
+
+
+
+
+
+

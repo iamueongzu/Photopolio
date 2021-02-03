@@ -1,0 +1,94 @@
+@charset "UFT-8";
+
+#slider {width: 100%; height: 700px; background-color:pink; background-size:cover;}
+			#slider h2 {background-color: red; color:#fff; float:left; padding:5px;  font-size:36px;}
+			#slider p {background-color: skyblue; float: left; padding: 0; margin:0 auto;}
+			#slider button { float: left; padding: 0;  margin:640px 20px 20px -430px;}
+
+
+
+
+			#wrap  {width: 1260px; height: 3000px;  margin: 0 auto;}
+
+
+			#firstbox {width:1095px; height: 196px;  margin:0 auto; }
+			
+			#firstbox img {width: 100px; height: 100px;  float: left; margin:40px 10px 0px 50px; background-size:cover; }
+			#firstbox h3 { float: left; margin:50px 0px 0px 20px; }
+			#firstbox span {float: left; margin:80px 0px 0px -132px; }
+			#firstbox p {float: left; margin:80px 0px 0px -235px; border-bottom:1px solid #ddd; cursor:pointer;}
+			#firstbox i {font-size: 50px; width:5%;  float:left; margin:50px 0px 0px 80px; color:#0472ec;}
+			
+			#about {width:1095px; height: 500px; background-color:#fff;  float: left; margin:-10px 0px 0px 80px; }
+			#about h1 { text-align:center; margin:0; padding:0;}
+			#about .about1 {width: 250px; height:300px; border:1px solid #ddd; margin:30px 5px 5px 15px; float:left; box-shadow: 4px 4px 4px 4px #eee;} 
+			#about .about1:hover {background-color:#0267d8; color:#fff; }
+			#about .about1 h3 {text-align:center; }
+			#about .about1 p {text-align:center; font-size:13px;}
+			#about .about1 img {width:250px; height:166px;}
+
+
+			#banner {width: 1095px; height: 188px; float:left;  margin:35px 0px 0px 82px;}
+
+			#banner img {width: 1095px; height: 188px;  float:left; margin:35px 0px 0px 0px;}
+
+
+			#business {width: 1095px; height: 700px;   float: left; margin:10px 0px 0px 82px;}
+			#business h1 {text-align:center;}
+			#business p {text-align:center; margin-top:-10px;}
+			#imgbox {width: 970px; height: 450px; background-color:#fff;  margin:20px 60px 40px 70px;}
+			#imgbox .iconic {width: 250px; height: 200px;  margin:10px 10px 10px 35px; float: left; border:1px solid #ddd; border-radius:20px; box-shadow: 2px 2px 2px 2px #eee; }
+			
+
+			#imgbox .iconic img {width:80px; height: 80px; margin:30px 85px;}
+			#imgbox .iconic h3 {text-align: center;  margin-top:-20px;  color:#0368da;}
+			#imgbox .iconic p { text-align:center; font-size:11px; color:#282828;}
+
+
+
+
+
+
+
+			#our {width: 1095px; height: 568px;   float: left; margin:-80px 0px 0px 82px;}
+			#our h1 {text-align:center;}
+			#our p {text-align:center; margin:0; padding:0;}
+			#group {width: 1095px; height: 400px;  float: left; margin:30px 0 0 0px;}
+			#group .group1 {width: 320px; height: 350px; background-color:#fff; float: left; margin:30px 20px 10px 20px; border:1px solid #ddd;}
+			#group .group1:hover {box-shadow:2px 2px 2px 2px #eee; cursor:pointer;}
+			#group .group1 img {width: 320px; height:236px; float:left; margin:0;}
+			#group .group1 h4 {text-align:center; margin-top:250px;  }
+			#group .group1 p {text-align:center;}
+			
+
+
+			#news {width: 1095px; height: 800px;  margin:20px 0px 0px 82px;}
+			#news h1 {text-align: center;}
+			#news .bestnews {width: 340px; height: 300px; background-color:#fff; float: left; margin:40px 0px 0 18px; border-radius: 10px; border:1px solid #ddd; box-shadow: 4px 4px 4px 4px #eee;}
+			#news .bestnews h5 {text-align:center; margin-top: 30px;}
+			#news .bestnews img {width:230px; height: 150px; border-radius:20px; float:left; margin:30px 10px 10px 50px;}
+			#news .bestnews p {margin:0px 0 0 130px; float:left; cursor:pointer; border-bottom:1px solid #ddd; color:none; font-size:13px;}
+
+			#happynews .bestnews_1 {width: 340px; height: 300px; background-color: #fff; float: left; margin:50px 0px 0 18px; border-radius: 10px; border:1px solid #ddd; box-shadow: 2px 2px 2px 2px #ddd;}
+			#happynews .bestnews_1 h5 {text-align:center;  margin-top:30px;}
+			#news .bestnews_1 img {width:230px; height: 150px; border-radius:20px; float:left; margin:30px 10px 10px 50px;}
+			#news .bestnews_1 p {margin:0px 0 0 130px; float:left; cursor:pointer; border-bottom:1px solid #ddd; color:none; font-size:13px;}
+
+			#contact {width: 1095px; height: 600px;  float: left;  margin:10px 10px 10px 40px; }
+
+			
+			#page {width:1100px; height:400px; margin:60px 20px 20px 20px; background-color:#f7f7f7; float:left; padding:20px;}
+			#page p {font-weight:bold;}
+
+			#page .contact { border-bottom:3px solid #0266d6; margin:0; padding:0;}
+
+
+			#contact input[type="text"] {width:400px; height:40px; border-radius:8px; }
+			#mess input[type="text"] {width:500px; height:100px; border-radius:8px;}
+			
+			#page #page1 { width:400px; height:40px; float:left; margin:-290px 0px 0px 520px;}
+			#page #page1 p {font-weight: bold; float:left; margin:0; margin-top:13px;}
+			#page #page1 input[type="text"] {float:left; width:500px; height:200px; border-radius:8px; margin-top:15px; }
+			#page #page1 button {background-color:#036ce0; width:130px; height:30px; border:none; float:left; margin:10px 20px 20px 370px; border-radius:5px; color:#fff;}
+			
+			select {width:400px; height:40px;}

@@ -1,0 +1,143 @@
+ @charset "utf-8";
+
+  * {margin: 0;}
+      body {margin: 0; padding: 0; background-color:#F4EDE5; font-family: 'Pangolin', cursive;}
+
+      ul,li,ol {list-style: none; margin: 0; padding: 0;}
+     span {font-family: 'Pangolin', cursive;}
+
+
+
+  /*pc버전 */
+	  @media screen and (min-width:1100px){
+	  	#top {width:1200px; height:100px; background-color:#fff;  margin:0 auto;}
+      #logo{width:150px; height:80px; margin:20px 550px;   z-index:3; position:relative; left:0; top:0; opacity:0.5;}
+      #logo img {width:100%; height:auto; position:absolute; margin-top:40px; margin-top:-135px; }
+      #top nav {width:100%; height:auto; display: flex; flex-direction: row;  flex-wrap: wrap; }
+      #top nav ul {width:80%; height:auto; margin: auto; color:#000; }
+      #top nav li {float:left;  width:10%; text-align:center; margin:10px auto;  font-size:14px; padding:1%;}
+      #top nav li:nth-child(4){ width:25%; height:50px;}
+      .a {display:none;}
+      .b {display:block;}
+      
+
+    #slider {width:1200px; height:600px; overflow: hidden; margin:0 auto; }
+    #slider img {width:100%; height:600px; margin:0 auto; position: relative; overflow: hidden;  }
+    #slider .slideimg img {width: 100%; height: auto; }
+      
+    #wrap {width:100%; height:auto; background-color:#f4ede5;}
+    
+     
+
+
+      #section { width:1200px; height:auto; margin:0 auto; background-color:#fff;}
+      
+      #section #one {width:1200px; height:900px;  display:flex; flex-direction:row; justify-content:space-around; padding:2%;}
+      
+      #section #one img {width:40%; height:650px;  margin-top: 40px;  box-shadow: 2px 2px 2px #7c7c7c;}
+
+      #section #one .onebox {width:50%; height:600px; margin-top: 80px; padding: 10px;
+      }
+
+      #section #one .onebox h2 { margin:0; font-family: 'Pangolin', cursive; }
+      #section #one .onebox h4 {color:red; font-size:12px;}
+      #section #one .onebox p {color: #676767; margin-top:20px;}
+      #section #one .onebox .onebox2 {width:25%; height: 160px; margin:10px 5px;  float:left;}
+      #section #one .onebox .onebox2 img {width:100%; height:160px; margin:10px 5px;   }
+       #section #one .onebox .onebox2 h4 {color:red; font-size: 14px;}
+
+      
+
+      #section #two {width:1200px; height:auto; background-color:#f5f6fa;  display:flex; flex-direction: column; justify-content: space-around; flex-wrap:wrap;}
+    #section #twobox {width:90%; height:auto;  display:flex; flex-direction: row; justify-content:center; flex-wrap:wrap; margin:50px 10px; }
+	   #twobox img {width:35%; height:35em; margin:50px 0px;  float:right; box-shadow: 3px 3px 3px #a2a2a2; display: flex; flex-direction: row; }
+      #section #two h4 {margin:30px auto;  text-align:center; color:red;   }
+      #section #two h5 {text-align:center; font-size:30px; }
+
+      
+      #twobox .twotext {width:40%; height:500px;  display:flex; flex-direction:column; justify-content:space-around; flex-wrap: wrap; margin:100px 50px; }
+	   #twobox .twotext img {width:35%; height:35em; margin:50px 0px;  float:right; box-shadow: 3px 3px 3px #a2a2a2; display: flex; flex-direction: row; }
+       #twobox .twotext h2 { text-align:left; font-size:4rem; font-weight:bold; color:#000; float: left; margin-top:50px;}
+
+        #twobox .twotext h3 { text-align:left; margin-top:-150px; padding:0; font-weight:bold; color:#000; float: left;}
+
+      #twobox .twotext span {display:inline-block; text-align:left; font-size:40px; font-family: 'Pangolin', cursive; margin-top:-150px;  }
+    
+      #twobox .twotext p {display:inline-block; text-align:left; font-size:15px; margin-top:-150px;}
+
+
+
+      #twobox .twotext_1 {width:40%; padding:0; height:400px;  display:flex; flex-direction:column;  flex-wrap: wrap; float: right; margin:50px 60px;}
+ 	   #twobox .twotext_1 h2 { text-align:left; font-size:4rem; font-weight:bold; font-family: 'Pangolin', cursive; color:#000; float: left;}
+ 	   #twobox .twotext_1 h3 { text-align:left; margin:0; padding:0; font-weight:bold; color:#000; float: left;}
+
+      #twobox .twotext_1 span {display:inline-block; text-align:left; font-size:40px;  }
+    
+      #twobox .twotext_1 p {display:inline-block; text-align:left; }
+	 
+
+      #three {width:100%; height:auto; display:flex; flex-direction:row;  float:left; flex-wrap:wrap; justify-content: center;  }
+      #three h4 {text-align:center;  width:100%; margin-top:2%;  }
+      #three h2 {text-align:center; width:100%; margin-top:3%;}
+      #three  h3 {text-align:center;}
+      #three .threebox {width:33.3%; height:auto;  display:flex;  flex-direction: row; flex-wrap:wrap; justify-content: center; float:left; margin-top:3%;   }
+	  #three .threetext {width:100%; height:100px; display:flex; flex-direction: row; float:left; justify-content: center; border-bottom: 1px dashed;  margin:10px 5px;}
+	  #three .threetext img {float:left;  width:20%; height:90px; border-radius: 50%; padding:1%; margin:0 50px;}
+	  #three .threetext p { text-align:center;  margin-top:20px; }
+	  #three .threetext span {text-align:center;  color:#666; font-size:1.042em;  margin:20px 10px;}
+
+      #section #fourbg {width:1200px; height:600px; background-size: cover; display:flex; flex-direction: column; justify-content:center; flex-wrap: wrap; }
+      
+       #section #fourbg h4 {color:red; text-align:center;}
+       #section #fourbg h2 {color:#fff; text-align:center;}
+       #section #fourbg span {color:#fff; font-size:25px; text-align:center;}
+    
+      
+      #five {width:1200px; height:900px; display: flex; flex-direction:row; justify-content: space-around; flex-wrap: wrap;}
+      #five h4 {width:100%; height:auto; margin:0;  text-align: center; padding:3%; color:red; font-size:15px;}
+      #five h2 { width:100%; text-align: center; padding:0; font-size:30px; margin-top:-20px;}
+      #five .fivebox {width:25%; height:500px; float:left; background-size: cover;  display: flex; flex-direction:row; justify-content: space-around; flex-wrap: wrap;  }
+
+     #five .fivebox .fivetext {width:95%; height:70px;
+      display: flex; flex-direction:column;  align-items:center; flex-wrap: wrap; margin-top:400px;}
+    
+    #five .fivebox .fivetext h3 {text-align: center; font-size:20px; padding:3%;}
+    #five .fivebox .fivetext p {text-align:center; color:#666;}
+
+
+
+      #footer {width:100%; height:auto;  margin:0 auto;}
+      #footerbg {width:1200px; height:900px; background-size:cover; margin:0 auto; position: relative;}
+      #footerbox {width:30%; height:600px; background-color:#fff; margin:300px 40px; display:flex; flex-direction: column; justify-content:center; flex-wrap: wrap; padding:3%; position:absolute;}
+
+      #footerbox p {text-align:center; color:red;}
+      #footerbox h2 {text-align:center;}
+
+
+      input[type=text], select {width: 90%; padding: 10px 15px; margin: 8px 20px; display: inline-block; border: 1px solid #ccc; border-radius: 4px;
+        box-sizing: border-box; text-align:left;}
+
+      input[type=submit] {width: 50%; background-color: #e22014; color: white; padding: 14px 20px; margin:0 auto; border: none; border-radius: 40px;
+        cursor: pointer; margin:20px 100px;
+      }
+      
+      #country {margin:-40px 20px;}
+      
+      #footerbox2 {width:1200px; height:auto;  margin:0 auto; display:flex; flex-direction: row; justify-content: center; flex-wrap: wrap; background-color:#fff;}
+      #footerbox2 .footertext{width:30%; height:250px; margin:150px 20px; float:left; }
+      #footerbox2 .footertext h2 {font-size:25px;}
+      #footerbox2 .footertext span {color:#9a9a9a; font-size:14px;}
+      #footerbox2 .footertext ul, li {color:#9a9a9a; font-size:14px;}
+      #footerbox2 input[type=text], select {width: 90%; padding: 2%; margin: 20px 2px; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}
+      #footerbox2 button {width:90%; border:none; background-color:#F34949; border-radius:20px; padding:4%; color:#fff;}
+      
+      #footerbox2 button:hover {backgroud-color:#e22014;}
+
+
+
+
+
+
+	  }
+
+  

@@ -1,0 +1,65 @@
+@charset "UFT-8";
+
+
+#slider {width:100%; height:360px;  margin:0 auto;  background-size: cover; background-position: center;}
+	#slider img {width:100%; height:360px; margin:0 auto; margin:0; padding:0; }
+	#slidermenu {width:1000px; height:209px;   margin: 0 auto;}
+	#slidermenu h1 {text-align: center; margin-top:20px; padding:0;}
+	#slidermenu h4 {text-align: center; }
+	#slidermenu p {text-align: center; font-size: 12px; color:#666;}
+
+	#wrap {width:1100px; padding:0;  margin:0 auto;  }
+
+	#Ride {width:1000px; height:546px; margin:0 auto; padding:20px;}
+	#Ride  h2 {margin:10px 20px; padding:0;}
+	#Ride  p { font-size:20px; float:left; margin:5px 10px 20px 20px;  }
+	#Ride  span {color:#000; font-size:12px;  float:left; margin:0px 20px; color:#666;} 
+	#Ride .Ridestudio {width:480px; height:370px; background-color:red; float:left; margin:5px 10px;}
+	#Ride .Ridestudio img {width:480px; height:370px; float: left; }
+	
+
+
+	#harrypotter {width:1000px; height:520px;  float:left; margin:120px 10px 10px 40px;}
+	#harrypotter h4 {float:left;  margin:10px 0px 10px 10px;}
+	#harrypotter span {margin: 0px 10px; font-size:14px; color:#666; float:left;  width:580px; height:100px; color:#666;} 
+	#harrypotter p {font-size:20px; float:left; background-color:yellow;margin:15px 10px 30px 10px; color:#666;}
+	#harrypotter .harry {width:300px; height: 208px; background-color:lightblue; float:left; margin:10px 10px;}
+	#harrypotter .harry img {width:310px; height:208px;}
+	#harrypotter .harry_1 {width:320px; height:208px; ; float:right; margin:0px 40px;}
+	#harrypotter .harry_1 img {width:310px; height:208px; margin:0px 8px;}
+	
+	#KingKong {width:1000px; height:800px;  margin:740px 10px 10px 40px;}
+	#KingKong h2 {  font-weight: bold; font-size: 20px; margin:5px 10px;}
+	
+	#KingKong span { float:left; margin:0; padding:0; font-weight: bold; font-size:16px;}
+	#KingKong p { font-size:13px;  margin:20px 10px; color:#666;}
+	#KingKong .king_1 {width:450px; height:231px; float:right; margin:20px 20px;}
+	#KingKong .king_1 img {width:450px; height:231px; float:right; margin:20px 20px;}
+	#KingKong .king {width:480px; height: 374px;  float: left;  margin:5px 5px; }
+	#KingKong .king img {float:left; width:480px; height:374px; margin: 5px 5px;}
+	#KingKong .kingtext {width:400px; height:300px; float:left;  margin:5px 15px;}
+	#KingKong .kingtext h5 {color:#0266d6;}
+
+	
+
+	#Jurassic {width:1000px; height:780px; margin:150px 10px 10px 40px;  }
+	#Jurassic h2 { margin:0px 40px; }
+	#Jurassic .World {float:left;width:900px; height:209px; margin:10px 40px; padding:10px;  box-shadow:3px 3px 3px 3px #eee; }
+	#Jurassic .World img {float:left;width:337px; height:209px; margin:0 10px 0 0; }
+	#Jurassic .World span {color:#666; display:block; padding:0; font-size:12px; color:#666; margin:0 10px 0px 30px; }
+	#Jurassic .World button { border:none; color:#0266d6; font-size:12px;  padding:5px;  cursor:pointer;  background-color:#fff; font-weight:bold;}
+
+
+
+	 #box-wrap {width:1000px; height: 373px;  margin:60px 10px 10px 40px; }
+      #box-wrap h2 {margin:10px 30px;}
+      #box-wrap .box {width: 290px; height: 239px;  margin:0 auto; float: left; margin:-30px 0px 0px 30px;}
+      #box-wrap .box img {width:290px; height: 239px; background-color:skyblue; margin-top:50px;}
+
+      .box .info {width:263px; height:90px; opacity:0; z-index: 20; position:relative; top:-120px; bottom:170; right: 2000; background: rgba(0,0,0,0.7); color: #fff; padding: 13px; transition: all 0.35s ease-in-out; }
+
+      .box .info h3 {font-size:15px; }
+
+
+      .box:hover .info {opacity:1; left: 0;}
+

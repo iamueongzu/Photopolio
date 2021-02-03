@@ -1,0 +1,43 @@
+﻿@charset "UTF-8";
+
+    #navbox nav li .active {color:orange;}
+
+     #sub{width:1291px; height:8900px; margin: 0 auto; }
+      
+      #content img {width:30px; height:30px; float:left; margin:20px 10px 0px 60px;  display:block;}
+      #content  h4 {font-size:15px;   float:left; margin:20px 0px 0px -15px; padding:5px;  display:inline-block;}
+     
+      #content #submenu {width:100%; height:350px; margin:10px 0 0 0px; float:left;}
+      #content #submenu img{width:350px; height:350px; margin:0px 10px 10px 60px;float:left;}
+    
+      #content #tax table{width:600px; border-top:1px solid #fff;  border-bottom:1px solid #e9e9e9;  margin:40px; float:left;}
+      #content #tax td {padding:6px 15px;}
+      #content #tax:first-child {width:100px; }
+      #content #tax button {margin:3px; cursor:pointer;}
+      #content #tax button:first-child {background-color:#f9b145; border-radius:3px; padding:10px 20px; color:#fff; border:none; }
+      #content #tax button:nth-child(2) {background-color:#000; border-radius:3px; padding:10px 20px; color:#fff; border:none; }
+      #content #tax button:nth-child(3) {background-color:#05c53a; border-radius:3px; padding:10px 20px; color:#fff; border:none;  }
+      
+      #item {width:100%; height:300px;}
+      #item p {width:200px; height:20px; text-align:left; font-weight:bold; padding:10px; margin:410px 10px 0px 45px;  font-size:16px;}
+      #item .box1 {width:130px; height:180px; float:left; margin:10px 0px 0px 44px; }
+      #item .box1 img {width:130px; height:180px; float:left; }
+   
+    #notice {float: left; width: 1290px; height:73px; margin:30px 150px -10px -10px; text-align: center; }
+    #notice ul,li,ol {list-style:none; margin:0; padding:0;}
+    #notice ul { margin: auto; padding:0; border:1px solid #eee; margin-top:-20px;}
+    #notice #tab_menu1 { width:300px; height:40px; margin0px; float:left; text-align: center; display:inline-block; color:red; padding:10px;  font-size:18px; border-top:1px solid #666;  color:#000; border-left:1px solid #666; border-right:1px solid #666; font-weight:bold; padding:10px;}
+    #notice #tab_menu2 { width:300px; height:40px; margin:0px; float:left; text-align: center; display:inline-block; color:red;  padding:10px; font-size:18px; border:1px solid #eee; color:#000; border-bottom:1px solid #666}
+    #notice #tab_menu3 {width:300px; height:40px; margin:0px; float:left; text-align: center; display:inline-block; color:red; padding:10px; font-size:18px;  border:1px solid #eee; color:#000; border-bottom:1px solid #666;}
+
+
+    
+    #shop {width:1000px; height:8000px;}
+    #shop .view img  {width:62%; height:40%; float:left; margin:0 0 0 340px;}
+    
+
+	
+
+
+
+

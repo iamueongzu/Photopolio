@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+* {margin: 0;}
+body {margin: 0; padding: 0; background-color:#F4EDE5; font-family: 'Pangolin', cursive;}
+ul,li,ol {list-style: none; margin: 0; padding: 0;}
+
+
+ /*테블릿버전 */
+      @media screen and (min-width:600px){
+        
+    header #top {width: 100%; display: flex; align-items: center; justify-content: space-between; justify-content: center; }
+      .b {padding: 15px; text-decoration: none; display:block; }
+      header .b a{padding: 15px; text-decoration: none; display:block;}
+      header .b a:hover {background-color: #eee; color:#666; text-decoration:   none; display: block;}
+      #logo img {width:10%; height:auto; line-height: 50px; padding:1%; display: flex; align-items: center; justify-content: space-between; justify-content: center; }
+      #top nav {display:none; }
+      #c {display: none;}
+      img {cursor: pointer;}
+      .a { width:3%; height:3%; float:right; display: flex; flex-direction:row; justify-content: space-around; align-items: center; margin:10px 0px;}
+ 
+
+
+    #slider {width:100%; height:600px; overflow: hidden; margin:0 auto; }
+    #slider img {width:100%; height:600px; margin:0 auto; position: relative; overflow: hidden;  }
+    #slider .slideimg img {width: 100%; height:600px; }
+	  #wrap {width:100%; height:auto; background-color:#f4ede5;  }
+      #section {width:100%; height:auto; margin:0 auto; background-color:#fff;}
+      
+      #section #one {width:100%; height:900px;  display:flex; flex-direction:row; justify-content:space-around;}
+      
+      #section #one img {width:40%; height:500px;  margin-top: 15%;  box-shadow: 3px 3px 3px #666;}
+
+      #section #one .onebox {width:50%; height:600px; margin-top: 80px; padding: 10px;
+      }
+
+      #section #one .onebox h2 { margin:0; }
+      #section #one .onebox h4 {color:red; font-size:12px;}
+      #section #one .onebox p {color: #676767; margin-top:20px;}
+      #section #one .onebox .onebox2 {width:28%; height: 140px; margin:10px 5px;  float:left;}
+      #section #one .onebox .onebox2 img {width:100%; height:140px; margin:10px 5px;   }
+       #section #one .onebox .onebox2 h4 {color:red; font-size: 14px;}
+
+      
+
+      #section #two {width:100%; height:auto; background-color:#e2dcd4;  display:flex; flex-direction: column; justify-content: space-around; flex-wrap:wrap; align-items: center;}
+      #section #twobox {width:90%; height:auto;  display:flex; flex-direction: row; justify-content:center; flex-wrap:wrap; margin:120px 10px;  }
+      
+      #twobox img {width:50%; height:500px;  float:right; box-shadow: 3px 3px 3px #a2a2a2; background-color:yellow; margin:120px 10px; }
+      #twobox .twotext_1 p {display:inline-block; text-align:center; }
+      #section #two h4 {margin:20px auto;  text-align:center; color:red; width:100%; }
+      #section #two h5 {text-align:center; font-size:30px; text-align:center; }
+      
+      #twobox .twotext {width:55%; height:auto;  display:flex; flex-direction:column; justify-content:space-around; flex-wrap: wrap;  }
+
+      #twobox .twotext h2 { text-align:left; font-size:4rem; font-weight:bold; color:#000; text-align:center;}
+      #twobox .twotext {text-align:center;}
+
+
+      #twobox .twotext span {display:inline-block; text-align:left; font-size:40px; text-align:center;  }
+    
+      #twobox .twotext p {display:inline-block; text-align:left; font-size:15px; text-align:center;}
+      #twobox .twotext_1 {width:70%; height:auto;  display:flex; flex-direction:column; justify-content:center; flex-wrap: wrap;  }
+
+      #twobox .twotext_1 h2 {text-align:center; font-size:4rem; font-weight:bold; color:#000; }
+      #twobox .twotext_1 h3 {text-align: center;}
+
+
+      #twobox .twotext_1 span {display:inline-block; text-align:center; font-size:40px;   font-family: 'Pangolin', cursive;}
+    
+
+      
+     #three {width:100%; height:auto; display:flex; flex-direction: column;  float:left; flex-wrap:wrap; justify-content: center;}
+      #three h4 {text-align:center;  width:100%; margin-top:2%; color: red;  }
+      #three h2 {text-align:center; width:100%; margin-top:3%;}
+      #three  h3 {text-align:center;}
+      #three .threebox {width:100%; height:auto;  display:flex;  flex-direction: row; flex-wrap:wrap; justify-content: center; float:left; margin-top:3%;  }
+	  #three .threetext {width:100%; height:100px; display:flex; flex-direction: row; float:left;  margin-top:3%; border-bottom: 1px dashed; justify-content: space-around; }
+	  #three .threetext img {float:left;  width:10%; height:90px; border-radius: 50%; padding:1%;}
+	  #three .threetext p { text-align:center;  margin-top:20px; }
+	  #three .threetext span {text-align:center;  color:#666; font-size:1.042em;  margin:20px 10px;}
+
+      
+      #section #fourbg {width:100%; height:600px; margin-top:5%; background-size: cover; display:flex; flex-direction: column; justify-content:center; flex-wrap: wrap; }
+      
+       #section #fourbg h4 { text-align:center;}
+       #section #fourbg h2 {color:#fff; text-align:center;}
+       #section #fourbg span {color:#fff; font-size:25px; text-align:center;}
+    
+      
+      #five {width:100%; height:auto; display: flex; flex-direction:row; justify-content: space-around; flex-wrap: wrap;  }
+      #five h4 {text-align:center;  width:100%; margin-top:2%; }
+      #five h2 {text-align:center; width:100%; }
+      #five .fivebox {width:50%; height:500px; float:left; background-size: cover;  display: flex; flex-direction:column; justify-content: space-around; flex-wrap: wrap; margin:50px 10px;  }
+
+     #five .fivebox .fivetext {width:100%; height:70px;
+      background-color:#fff; display: flex; flex-direction:column;  align-items:center; flex-wrap: wrap; margin-top:400px; justify-content: center;}
+    
+    #five .fivebox .fivetext h3 {text-align: center; font-size:15px; }
+    #five .fivebox .fivetext p {text-align:center; color:#666;}
+
+
+
+      #footer {width:100%; height:auto;  margin:0 auto;}
+      #footerbg {width:100%; height:400px; background-size:cover; margin:0 auto; position: relative;}
+      #footerbox {width:80%; height:500px; background-color:#fff; margin:30px 50px; display:flex;  padding:1%; flex-direction: column; justify-content:center; flex-wrap: wrap; padding:1%; position:absolute;}
+
+      #footerbox p {text-align:center; color:red;}
+      #footerbox h2 {text-align:center;}
+
+
+      input[type=text], select {width: 90%; padding: 10px 15px; margin: 8px 20px; display: inline-block; border: 1px solid #ccc; border-radius: 4px;
+        box-sizing: border-box; text-align:left;}
+
+      input[type=submit] {width: 45%; background-color: #e22014; color: white; padding: 14px 20px; margin:0 auto; border: none; border-radius: 40px;
+        cursor: pointer; margin:30px 130px;
+      }
+      
+      #country {margin:-40px 20px;}
+      
+      #footerbox2 {width:100%; height:auto;  margin:200px auto; display:flex; flex-direction: column; justify-content: center; flex-wrap: wrap; align-items: center;}
+      #footerbox2 .footertext{width:80%; height:auto; float:left;   flex-direction: column; justify-content: center; flex-wrap: wrap;  align-items: center; margin-top:3%;}
+      #footerbox2 .footertext h2 {font-size:25px;}
+      #footerbox2 .footertext span {color:#9a9a9a; font-size:14px;}
+      #footerbox2 .footertext ul, li {color:#9a9a9a; font-size:14px; padding:1%;}
+      #footerbox2 input[type=text], select {width: 90%; padding: 2%; margin: 20px 2px; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}
+      #footerbox2 button {width:90%; border:none; background-color:#F34949; border-radius:20px; padding:2%; color:#fff;}
+      
+      #footerbox2 button:hover {backgroud-color:#e22014;}
+
+	
+
+
+
+
+
+      }
+	
+

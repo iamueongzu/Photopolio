@@ -1,0 +1,112 @@
+﻿@charset "utf-8";
+
+
+
+
+    
+
+
+      
+      #silder {width:100%; height:540px;  margin:0 auto;}
+      #silder img {width:100%; height:520px;}
+  
+      #wrap {margin:0 auto;}
+      section {width:1291px; height:4100px; margin:0 auto;}
+	  
+	 #first {width:1287px; height:900px;}
+	
+	 #cafe {width:627px; height:469px; background-size: cover; float:right; margin:-828px 10px 0 10px;}
+	 #cafe h3 a{text-decoration: none; color:#000; margin:20px 30px 0px 0px; color:#000; float:right; font-size:20px; text-align:right;}
+	 #cafe p a {text-decoration: none; color:#666; margin:0px 30px 0px 0px; float:right; text-align:right; padding:0; display: block; font-size:16px;}
+	 #cafe .btn03 { color:#fff; text-align: center;  padding:8px 8px; font-size: 8px; margin: 10px 30px 40px 200px;
+                          opacity: 0.6; transition: 0.3s; border:1px solid #fff;  float:right; border-radius:15px; background-color:#f0963d;}
+
+
+	 #knife { width:627px; height:339px; background-size: cover; float:left; 
+		  margin:40px 10px 0px 10px;background-repeat: no-repeat; background-position: right bottom;}
+	 #knife h3 a{text-decoration: none; color:#000; margin:20px 0px 0px 20px; color:#000; float:left; font-size:20px; }
+	 #knife p a {text-decoration: none; color:#666; margin:10px 0 0px 20px;  padding:0; display: block; font-size:16px;}
+	 #knife .btn01 { color:#fff; text-align: center;  padding:8px 8px; font-size: 8px; margin: 5px 30px 40px 20px;
+                          opacity: 0.6; transition: 0.3s; border:1px solid #fff;  float:left; border-radius:15px; background-color:#f0963d; }
+
+
+	
+
+	  #right {width:627px; height:469px; float:left; background-size: cover;  
+		  margin:20px 20px 0px 10px; background-repeat: no-repeat; background-size:cover;}
+	  #right h3 a{text-decoration: none; color:#000; margin:90px 0px 0px 20px; color:#000; float:left; font-size:20px; }
+	  #right p a {text-decoration: none; color:#666; margin:70px 0 0px 20px;  padding:0; display: block; font-size:16px;}
+	  #right .btn02 { color:#fff; text-align: center;  padding:8px 8px; font-size: 8px; margin: 5px 30px 40px 20px;
+                          opacity: 0.6; transition: 0.3s; border:1px solid #fff;  float:left; border-radius:15px; background-color:#f0963d; }
+
+	  #right .btn02 a {text-decoration:none; color:#fff;}
+
+
+
+
+
+
+	  #sauce {width:627px; height:339px; float:right;  background-size:cover;
+		   margin:-340px 10px 0px 10px; background-repeat: no-repeat; background-position: 40% 60%; background-size:contain;}
+	  #sauce h3 a{text-decoration: none; color:#000; margin:20px 30px 0px 20px; text-align:right; color:#000; float:right; font-size:20px; }
+	  #sauce p a {text-decoration: none; color:#666; margin:20px 30px 0px 20px; text-align:right;  padding:0; display: block; font-size:16px;}
+	  #sauce .btn04 { color:#fff; text-align: center;  padding:8px 8px; font-size: 8px; margin: 5px 30px 40px 200px;
+                          opacity: 0.6; transition: 0.3s; border:1px solid #fff;  float:right; border-radius:15px; background-color:#f0963d;}
+
+	  
+	
+
+	  
+	   #bestitems {width:1291px; height:500px; margin:0 auto;}
+	   #bestitems h2 {background-color:#fff; color:#000; font-weight:bold; text-align:center; margin:40px 0 30px 0 ;}
+	   #bestitems p {background-color:#fff; color:#929292;  text-align:center; margin:-30px 0 30px 0 ;}
+	   #bestitems .best{width:290px; height:440px; float:left; margin:20px 10px 10px 20px; border:1px solid #efefef;}
+	   #bestitems .best img{width:290px; height:370px;   border:1px solid #fff;}
+       #bestitems .best span {margin:8px; color:#000;}
+	   #bestitems .value {color:#000; font-size:16px; font-weight:bold;  margin:8px; }
+	   
+
+	  
+	  #brand {width:100%; height:700px; }
+	  #brand h2 {background-color:#fff; color:#000; font-weight:bold; text-align:center;  margin-top:150px; }
+	  #brand .cholce{width:290px; height:500px; float:left; margin:20px 10px 10px 20px; border:1px solid #dedede; box-shadow:1px 1px 1px 1px #eee;}
+	  #brand .cholce img {width:290px; height:250px;}
+	  #brand .cholce h3 {margin:30px 10px 10px 20px; text-align:center; font-size:22px; color:#000;}
+	  #brand .cholce span {display:block; text-align:center; font-size:13px; color:#666; margin:40px 20px 20px 20px;}
+	  #brand .btn1 { background-color:#a5441b; color:#fff; text-align: center;  padding:8px 8px; font-size: 10px; margin: 10px 20px 20px 120px;
+                          opacity: 0.6; transition: 0.3s; border:1px solid #838383; border-radius:50px;}
+	  #brand .btn2 { background-color:#a5441b; color:#fff; text-align: center;  padding:8px 8px; font-size: 10px; margin: 8px 20px 20px 120px;
+                          opacity: 0.6; transition: 0.3s; border:1px solid #838383; border-radius:50px;}
+	  #brand .btn3 { background-color:#a5441b; color:#fff; text-align: center;  padding:8px 8px; font-size: 10px; margin: 8px 20px 20px 120px;
+                          opacity: 0.6; transition: 0.3s; border:1px solid #838383; border-radius:50px;}
+	  #brand .btn4 { background-color:#a5441b; color:#fff; text-align: center;  padding:8px 8px; font-size: 10px; margin: 8px 20px 20px 120px;
+                          opacity: 0.6; transition: 0.3s; border:1px solid #838383; border-radius:50px;}
+
+
+
+	  #trenditems {width:100%; height:508px;}
+	  #trenditems h2 {background-color:#fff; color:#000; font-weight:bold; text-align:center; margin:-10px 10px 30px 40px; }
+	  #trenditems .trend{width:290px; height:440px; border:1px solid #efefef; float:left; margin:20px 0px 0px 20px;}
+	  #trenditems .trend img {width:290px; height:370px;}
+	  #trenditems .trend span {margin:10px 8px; color:#000;}
+	  #trenditems .value {color:#000; font-size:16px; font-weight:bold; margin:8px; }
+
+
+	  #petlove {width:100%; height:504px;}
+	  #petlove h2 {background-color:#fff; color:#000; font-weight:bold; text-align:center;  margin:95px 10px 30px 40px; }
+	  #petlove .pet{width:290px; height:440px;  float:left; margin:20px 10px 10px 20px;  border:1px solid #efefef;}
+	  #petlove .pet img{width:290px; height:370px;}
+	  #petlove .pet span {margin:10px 8px; font-size:15px; color:#000;}
+	  #petlove .value {color:#000; font-size:16px; font-weight:bold; margin:10px 8px;}
+
+
+	  #endbox {width:1291px; height:548px; background-color:#fff; float:left; margin:80px 50px 20px 50px;}
+	  #endbox .top { color:#000; font-weight:bold; text-align:center;  margin:20px 100px 30px 20px; font-size:25px; }
+	  #endbox .end{width:250px; height:400px; float:left; margin:20px 20px 50px 25px; border:1px solid #eee; box-shadow:1px 1px 1px 1px #eee;}
+	  #endbox .end img{width:250px; height:261px;}
+	  #endbox .end h2 {text-align:center; margin:20px;}
+	  #endbox .end span {display:block; color:#666; font-size:12px; text-align:center;}
+	 
+
+
+
